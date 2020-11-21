@@ -3,6 +3,7 @@ import ss from "../assets/projects/ss.png"
 import bt from "../assets/projects/bt1.png"
 import ft from '../assets/projects/ft1.png'
 import spotify from '../assets/projects/spotify.png'
+import bg1 from '../assets/projects/bg1.png'
 
 let project_list = [
 	{
@@ -55,7 +56,7 @@ let project_list = [
 	},
 	{/* -------------------------------- need to take a screen shot of the page and update that here */
 		image:
-			'https://drive.google.com/uc?id=1CBW3KdvYrrCW7chC1o6EWlRm7IvnHz1h',
+			bg1,
 		title: 'Covid-19 Tracker',
 		des:
 			"A Full Stack Application that lets you track the number of COVID-19 cases, recoveries and deaths both Globally and by Countries. This App makes use of the MERN stack as well as a COVID-19 API that returns real time data to the app.",
