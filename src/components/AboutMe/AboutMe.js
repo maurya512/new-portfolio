@@ -1,7 +1,14 @@
 import React from "react";
 import portfolio from "../../utils/mp1.jpg";
 import { Typography } from "@material-ui/core";
+// import button from material-ui/core/Button
+import { IconButton } from "@material-ui/core";
+// importing the linkedin icon from the material ui dev dependency
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import { GitHub } from '@material-ui/icons'
 import "./AboutMe.scss";
+
 
 const AboutMe = () => {
   return (
@@ -25,6 +32,37 @@ const AboutMe = () => {
           <p>
             I love learning about new technologies and implementing them in my projects to enhance my skill set as Web Developer. I predominantly work with the highly reputed and in demand (MERN) stack. Let's deploy great stuff together!
           </p>
+          {/* buttons that redirect the viewer ter to your social media app */}
+          <IconButton
+            title="Linked In"
+            aria-label=""
+            color="inherit"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.linkedin.com/in/maurya-pa-1696a91b2/";
+            }}>
+            <LinkedInIcon></LinkedInIcon>
+          </IconButton>
+          <IconButton
+            title="Github"
+            aria-label=""
+            color="inherit"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.github.com/maurya512";
+            }}>
+            <GitHub />
+          </IconButton>
+          <IconButton
+            title="Facebook"
+            aria-label=""
+            color="inherit"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.facebook.com/mauryap512";
+            }}>
+            <FacebookIcon></FacebookIcon>
+          </IconButton>
         </div>
       </div>
     </React.Fragment>

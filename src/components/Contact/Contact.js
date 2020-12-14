@@ -1,4 +1,7 @@
 import React from "react";
+// import React from 'react-dom';
+// import social media icons from the dev dependency
+// import { SocialIcon } from 'react-social-icons';
 import { Typography } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
@@ -116,6 +119,16 @@ export default function ContactForm() {
             >
               Send
             </Button>
+            {/* A button that renders to my social media account */}
+            {/* <Button
+              variant="outlined"
+              color="primary"
+              size="medium"
+              type="submit"
+              style={{ width: "20%", marginTop: "15px" }}
+              onClick={this.githubLink}
+              >
+                </Button> */}
           </div>
         </form>
       </div>
