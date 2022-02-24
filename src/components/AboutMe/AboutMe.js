@@ -30,7 +30,7 @@ const AboutMe = () => {
         <div className="subtitle">
           <h3>I am a Full Stack Web Developer!!</h3>
           <p>
-            I love learning about new technologies and implementing them in my projects to enhance my skill set as Web Developer. I predominantly work with the highly reputed and in demand (MERN) stack. Let's deploy great stuff together!
+            I love learning about new technologies and implementing them in my projects to enhance my skill set as Web Developer. Let's deploy great stuff together!
           </p>
           {/* buttons that redirect the viewer ter to your social media app */}
           <IconButton
